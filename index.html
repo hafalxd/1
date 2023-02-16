@@ -7,11 +7,39 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-  
-        
-        <script src="" async defer></script>
+        <h1 class="center">
+            hello jacek
+        </h1>
+        <div class="right">
+            <button onclick="DarkMode()"> Dark mode </button>
+        </div>
+        <br>
+
+        <form action="https://www.google.com/search" method="get" class="center">
+            <input autocomplete="off" autofocus name="q" placeholder="Google Search" type="text">
+            <button>
+                <img src="google.png" width="30" height="30">
+            </button>
+        </form>
+        <br>
+
+        <form action="https://www.bing.com/search" method="get" class="center">
+            <input autocomplete="off" autofocus name="q" placeholder="Bing Search" type="text">
+            <button>
+                <img src="bing.png" width="30" height="30">
+            </button>
+        </form>
+        <br>
+
+        <form action="https://search.yahoo.com/search" method="get" class="center">
+            <input autocomplete="off" autofocus name="p" placeholder="Yahoo Search" type="text">
+            <button>
+                <img src="yahoo.png" width="30" height="30">
+            </button>
+        </form>
+        <script src="functions.js" async defer></script>
     </body>
 </html>
